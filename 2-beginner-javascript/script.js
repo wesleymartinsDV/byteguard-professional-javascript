@@ -29,8 +29,8 @@ var calculatePrice = function(sqMeters) {
     return price;
 };
  */
-const calculatePrice = sqMeters => sqMeters + 3000;
-console.log(calculatePrice(100));
+/* const calculatePrice = sqMeters => sqMeters + 3000;
+console.log(calculatePrice(100)); */
 //
 /* const headingEl = document.querySelector(".heading")
 
@@ -41,8 +41,37 @@ const onClick = () => {
 
 headingEl.addEventListener("click", onClick) */
 
+/* const price = "10000";
+const weather = "bad";
 
+if (price === 10000 || weather == "bad") {
+    console.log(`true`);
+}   else {
+    console.log(`of`);
+}
 
+price > 3000 ? console.log(`Hello`) : console.log(`blabla`); */
+
+if (5000) {
+  let hello = 5;
+} else {
+  let hi = 10;
+}
+
+const headingEL = document.querySelector(".heading");
+
+/* headingEL.textContent = `Hello World!`;
+headingEL.innerHTML = `Hello <span class="big">World</span>` */
+
+/* headingEL.insertAdjacentHTML(`beforebegin`, `"sss"`);
+
+headingEL.style.fontSize = '1rem' */
+
+const clickHandler = () => {
+    headingEL.classList.add('big');
+}
+
+headingEL.addEventListener('click', clickHandler);
 
 
 // EXTRA exercício 1
